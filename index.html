@@ -1,0 +1,102 @@
+<!--Projeto baseado no Arbnb-->
+<html>
+  <head>
+    <title>Freedom</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="js/fetch.js" type="text/javascript"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="info-covid">
+      <p>
+        Confira informações atualizadas sobre nossas políticas de cancelamento e
+        ações em resposta à COVID-19.
+        <a
+          href="https://www.airbnb.com.br/resources/hosting-homes/t/coronavirus-updates-34"
+          target="_blanck"
+          >Saiba mais</a
+        >
+      </p>
+    </div>
+
+    <div class="parallax">
+      <p>Freedom, sua liberdade de escolha!</p>
+    </div>
+
+    <div class="container">
+      <header>
+        <div class="menu-cab">
+          <p>Freedom</p>
+          <nav>
+            <ul>
+              <li><a href="#">Hospede em sua acomodação</a></li>
+              <li><a href="#">Hospede uma experiência</a></li>
+              <li><a href="#">Ajuda</a></li>
+              <li><a href="#">Entrar</a></li>
+              <li><a class="button" href="#">Cadastrar-se</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="sub-menu">
+        <nav>
+          <ul>
+            <li><a href="#">Lugares para ficar</a></li>
+            <li><a href="#">Estadias longas</a></li>
+            <li><a href="#">Experiências</a></li>
+            <li><a href="#">Experiências online</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="search">
+        <div class="input-group">
+          <label>LOCALIZAÇÃO</label>
+          <input
+            type="text"
+            name="localizacao"
+            placeholder="Para onde você vai?"
+            required
+          />
+        </div>
+        <div class="vl"></div>
+        <div class="input-group">
+          <label>CHECKIN</label>
+          <input
+            type="date"
+            name="checkin"
+            placeholder="Insira a data de Chekin"
+            required
+          />
+        </div>
+        <div class="vl"></div>
+        <div class="input-group">
+          <label>CHECKOUT</label>
+          <input
+            type="date"
+            name="checkin"
+            placeholder="Insira a data de Checkout"
+            required
+          />
+        </div>
+        <div class="vl"></div>
+        <div class="input-group">
+          <button type="submit" name="buscar">
+            <img src="img/search.png" />Buscar
+          </button>
+        </div>
+      </div>
+
+      <div class="cards-container" id="cards"></div>
+    </div>
+
+    <footer>
+      Desenvolvido por Vinicius Tito
+    </footer>
+  </body>
+</html>
