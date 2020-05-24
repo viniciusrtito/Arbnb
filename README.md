@@ -1,4 +1,6 @@
 # Arbnb
+https://freedomproj.netlify.app
+
 Projeto baseado no airbnb
 
 Conceitos abordados:
